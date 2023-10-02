@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.card {
+    margin: 1rem 0;
+}
+
+#title{
+    padding: 1rem 0;
+    color: rgb(1, 4, 17);
+}
+
+#editor-card {
+    height: 35vh;
+}
+#editor {
+    padding: 0.5rem;
+}
+@media screen and (min-width: 992px){
+    #editor-card,
+    #preview-card {
+        height: 100vh;
+        overflow: auto;
+    }
+}
